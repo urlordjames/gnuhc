@@ -1,0 +1,11 @@
+name: Gnuhc
+version: ${project.version}
+main: me.urlordjames.gnuhc.Gnuhc
+api-version: 1.16
+depend: [Multiverse-Core]
+authors: [urlordjames]
+description: GNU Minecraft UHC
+commands:
+  uhcstart:
+    description: start the UHC
+    usage: /<command>
